@@ -1,0 +1,20 @@
+node_modules/
+.DS_Store
+*.log
+.env
+**/.env
+
+# SDK build output (published to npm)
+sdk/dist/
+
+# EVM (Foundry)
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Solana (Anchor)
+solana/target/
+solana/test-ledger/
+
+# Stellar (Soroban)
+soroban/target/
